@@ -2,7 +2,7 @@
   "name": "superheros",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mano659.github.io/superheros",
+  "homepage": "https://mano659.github.io/super-heros",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
