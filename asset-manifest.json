@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/superheros/static/css/main.eccaa74f.chunk.css",
-    "main.js": "/superheros/static/js/main.73dbca84.chunk.js",
-    "main.js.map": "/superheros/static/js/main.73dbca84.chunk.js.map",
-    "runtime-main.js": "/superheros/static/js/runtime-main.1291103d.js",
-    "runtime-main.js.map": "/superheros/static/js/runtime-main.1291103d.js.map",
-    "static/js/2.29db906f.chunk.js": "/superheros/static/js/2.29db906f.chunk.js",
-    "static/js/2.29db906f.chunk.js.map": "/superheros/static/js/2.29db906f.chunk.js.map",
-    "index.html": "/superheros/index.html",
-    "precache-manifest.4c6a65d01978cf0de8e150fe1bf89758.js": "/superheros/precache-manifest.4c6a65d01978cf0de8e150fe1bf89758.js",
-    "service-worker.js": "/superheros/service-worker.js",
-    "static/css/main.eccaa74f.chunk.css.map": "/superheros/static/css/main.eccaa74f.chunk.css.map",
-    "static/js/2.29db906f.chunk.js.LICENSE.txt": "/superheros/static/js/2.29db906f.chunk.js.LICENSE.txt"
+    "main.css": "/super-heros/static/css/main.eccaa74f.chunk.css",
+    "main.js": "/super-heros/static/js/main.73dbca84.chunk.js",
+    "main.js.map": "/super-heros/static/js/main.73dbca84.chunk.js.map",
+    "runtime-main.js": "/super-heros/static/js/runtime-main.1291103d.js",
+    "runtime-main.js.map": "/super-heros/static/js/runtime-main.1291103d.js.map",
+    "static/js/2.29db906f.chunk.js": "/super-heros/static/js/2.29db906f.chunk.js",
+    "static/js/2.29db906f.chunk.js.map": "/super-heros/static/js/2.29db906f.chunk.js.map",
+    "index.html": "/super-heros/index.html",
+    "precache-manifest.4c6a65d01978cf0de8e150fe1bf89758.js": "/super-heros/precache-manifest.4c6a65d01978cf0de8e150fe1bf89758.js",
+    "service-worker.js": "/super-heros/service-worker.js",
+    "static/css/main.eccaa74f.chunk.css.map": "/super-heros/static/css/main.eccaa74f.chunk.css.map",
+    "static/js/2.29db906f.chunk.js.LICENSE.txt": "/super-heros/static/js/2.29db906f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1291103d.js",
