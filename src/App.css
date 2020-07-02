@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 72px;
+  color: #d12531;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

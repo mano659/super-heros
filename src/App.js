@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import CardList from "./component/card-list/card-list";
+import SearchBox from "./component/search-box/search-box";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      users: [],
+      searchQuery: "",
+    };
+  }
+
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((users) => this.setState({ users: users }));
+  }
+
+  render() {
+    const { users, searchQuery } = this.state;
+    console.log(users);
+    const filteredUsers = users.filter(
+      (user) =>
+        user.name.toLowerCase().indexOf(searchQuery.toLowerCase()) !== -1
+    );
+
+    return (
+      <div className="App">
+        <h1>Super Heros</h1>
+        <SearchBox
+          placeholder="Search Heros"
+          changeHandler={(e) => this.setState({ searchQuery: e.target.value })}
+        ></SearchBox>
+        <CardList users={filteredUsers} />
+      </div>
+    );
+  }
 }
 
 export default App;
